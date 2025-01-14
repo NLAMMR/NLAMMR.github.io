@@ -43,7 +43,7 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
-  <style>
+  <!-- <style>
     a {
         color: blue;
         text-decoration: underline; 
@@ -52,7 +52,7 @@
     a:hover {
         color: darkblue;
     }
-  </style>
+  </style> -->
 </head>
 <body>
 
@@ -167,7 +167,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Combinatorial medication recommendation (CMR) is a fundamental task of healthcare, which offers opportunities for clinical physicians to provide more precise prescriptions for patients with intricate health conditions, particularly in the scenarios of long-term medical care. Previous research efforts have sought to extract meaningful information from electronic health records (EHRs) to facilitate combinatorial medication recommendations. Existing learning-based approaches further consider the chemical structures of medications, but ignore the textual medication descriptions in which the functionalities are clearly described. Furthermore, the textual knowledge derived from the EHRs of patients remains largely underutilized. To address these issues, we introduce the Natural Language-Assisted Multi-modal Medication Recommendation(NLA-MMR), a multi-modal alignment framework designed to learn knowledge from the patient view and medication view jointly. Specifically, NLA-MMR formulates CMR as an alignment problem from patient and medication modalities. In this vein, we employ pretrained language models(PLMs) to extract in-domain knowledge regarding patients and medications, serving as the foundational representation for both modalities. In the medication modality, we exploit both chemical structures and textual descriptions to create medication representations. In the patient modality, we generate the patient representations based on textual descriptions of diagnosis, procedure, and symptom. Extensive experiments conducted on three publicly accessible datasets demonstrate that NLA-MMR achieves new state-of-the-art performance, with a notable average improvement of 4.72% in Jaccard score. Our source code is publicly available on <a href="https://github.com/jtan1102/NLA-MMR_CIKM_2024">this https URL</a>. 
+            Combinatorial medication recommendation (CMR) is a fundamental task of healthcare, which offers opportunities for clinical physicians to provide more precise prescriptions for patients with intricate health conditions, particularly in the scenarios of long-term medical care. Previous research efforts have sought to extract meaningful information from electronic health records (EHRs) to facilitate combinatorial medication recommendations. Existing learning-based approaches further consider the chemical structures of medications, but ignore the textual medication descriptions in which the functionalities are clearly described. Furthermore, the textual knowledge derived from the EHRs of patients remains largely underutilized. To address these issues, we introduce the Natural Language-Assisted Multi-modal Medication Recommendation(NLA-MMR), a multi-modal alignment framework designed to learn knowledge from the patient view and medication view jointly. Specifically, NLA-MMR formulates CMR as an alignment problem from patient and medication modalities. In this vein, we employ pretrained language models(PLMs) to extract in-domain knowledge regarding patients and medications, serving as the foundational representation for both modalities. In the medication modality, we exploit both chemical structures and textual descriptions to create medication representations. In the patient modality, we generate the patient representations based on textual descriptions of diagnosis, procedure, and symptom. Extensive experiments conducted on three publicly accessible datasets demonstrate that NLA-MMR achieves new state-of-the-art performance, with a notable average improvement of 4.72% in Jaccard score. Our source code is publicly available on <a href="https://github.com/jtan1102/NLA-MMR_CIKM_2024">https://github.com/jtan1102/NLA-MMR_CIKM_2024</a>. 
           </p>
         </div>
       </div>
@@ -301,12 +301,15 @@
         title={Natural Language-Assisted Multi-modal Medication Recommendation},
         url={http://dx.doi.org/10.1145/3627673.3679529},
         DOI={10.1145/3627673.3679529},
-        booktitle={Proceedings of the 33rd ACM International Conference on Information and Knowledge Management},
+        booktitle={Proceedings of the 33rd ACM International Conference on 
+          Information and Knowledge Management},
         publisher={ACM},
-        author={Tan, Jie and Rong, Yu and Zhao, Kangfei and Bian, Tian and Xu, Tingyang and Huang, Junzhou and Cheng, Hong and Meng, Helen},
+        author={Tan, Jie and Rong, Yu and Zhao, Kangfei and Bian, Tian and Xu, 
+          Tingyang and Huang, Junzhou and Cheng, Hong and Meng, Helen},
         year={2024},
         month=oct, pages={2200–2209},
-        collection={CIKM ’24} }
+        collection={CIKM ’24}
+      }
      </code></pre>
     </div>
 </section>
