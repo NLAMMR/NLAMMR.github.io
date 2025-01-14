@@ -43,16 +43,12 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
-  <!-- <style>
-    a {
-        color: blue;
-        text-decoration: underline; 
-    }
-
-    a:hover {
-        color: darkblue;
-    }
-  </style> -->
+  <style>
+  .framework-description {
+            font-size: 20px;
+            line-height: 1.6;
+        }
+  </style>
 </head>
 <body>
 
@@ -184,10 +180,26 @@
 
 <section class="framework-section">
   <div class="container is-max-desktop content">
-  <h2 class="title is-3">Framework</h2>
-  <img src="static/images/framework.png" alt="Framework Image" />
-  <p>Illustration of combinatorial medication recommendation with help of knowledge extraction from PLMs.</p>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+      <h2 class="title is-3">Framework</h2>
+      <img src="static/images/framework.png" alt="Framework Image" />
+      <p class="framework-description">Illustration of combinatorial medication recommendation with help of knowledge extraction from PLMs.</p>
+    </div>
   </div>
+</div>
+</section>
+
+<section class="framework-section">
+  <div class="container is-max-desktop content">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+      <h2 class="title is-3">Model Overview</h2>
+      <img src="static/images/PLMs.png" alt="Framework Image" />
+      <p class="framework-description">The architecture of NLA-MMR. NLA-MMR is composed of three modules: (a) Patient Representation Module employs PLMs as the base encoder to construct the representation of patient modality from the diagnosis, procedure, and symptom. (b) Medication Representation Module incorporates the embedding derived from textual medication descriptions and chemical structures to build the representation of medication modality. (c) Cross-Modal Alignment Module takes the representation from patient and medication modality as input and aligns them in the same latent space. We further consider historical medication usage information to model the patient’s clinical history, which can enhance the representation of patient modality.</p>
+    </div>
+  </div>
+</div>
 </section>
 
 
